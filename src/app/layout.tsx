@@ -12,7 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <h1>Isto vai aparecer em todas as páginas pq faz parte do layout do root</h1>
+        {children}
+      </body>
     </html>
   )
 }

@@ -20,7 +20,7 @@
       }
     ],
     "paths": {
-      "@/*undefined": ["./src/*"]
+      "@/*undefined": ["./src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
